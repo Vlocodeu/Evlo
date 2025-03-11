@@ -61,7 +61,7 @@ const Navbar = () => {
         <div
           className={`flex-grow flex justify-center hidden md:flex space-x-20`}
         >
-          {["home", "aboutus", "services", "blogs", "contactus"].map((item) => (
+          {["home", "services", "blogs", "contactus"].map((item) => (
             <Link
               key={item}
               href={item === "home" ? "/" : `/${item}`} // Set home to link to "/"
@@ -77,19 +77,17 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-black text-white">
           <div className="flex flex-col items-center space-y-4 py-4">
-            {["home", "aboutus", "services", "blogs", "contactus"].map(
-              (item) => (
-                <Link
-                  key={item}
-                  href={item === "home" ? "/" : `/${item}`} // Set home to link to "/"
-                  className="glowing-text hover:text-white"
-                  onClick={() => setIsOpen(false)} // Close menu on link click
-                >
-                  {item.charAt(0).toUpperCase() + item.slice(1)}{" "}
-                  {/* Capitalize first letter */}
-                </Link>
-              )
-            )}
+            {["home", "services", "blogs", "contactus"].map((item) => (
+              <Link
+                key={item}
+                href={item === "home" ? "/" : `/${item}`} // Set home to link to "/"
+                className="glowing-text hover:text-white"
+                onClick={() => setIsOpen(false)} // Close menu on link click
+              >
+                {item.charAt(0).toUpperCase() + item.slice(1)}{" "}
+                {/* Capitalize first letter */}
+              </Link>
+            ))}
           </div>
         </div>
       )}

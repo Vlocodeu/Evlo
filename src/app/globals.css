@@ -320,7 +320,7 @@ body {
     /* Green glow */ 0 0 5px rgba(217, 0, 255, 0.7),
     /* Light green glow */ 0 0 10px rgba(3, 251, 255, 0.7),
     /* Cyan glow */ 0 0 10px rgba(0, 0, 0, 0.997); /* Light cyan glow */
-  animation: glow 1s infinite alternate; /* Apply the glow animation */
+  animation: glow 100s infinite alternate; /* Apply the glow animation */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -378,6 +378,40 @@ body {
   100% {
     right: 100%; /* Move to off-screen to the left */
   }
+}
+
+.h2-glow {
+  position: relative;
+  display: inline-block; /* Make the text inline-block for better control */
+  font-size: 3em; /* Adjust font size as needed */
+  color: #ffffff; /* Text color */
+  font-weight: 10; /* Light-medium font weight */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.h2-glow::before {
+  content: attr(data-text); /* Use the same text for the glow effect */
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start off-screen to the left */
+  color: rgba(0, 0, 0, 0.5); /* Color of the glow */
+  text-shadow: 0 0 5px rgba(255, 0, 255, 0.5), 0 0 10px rgba(255, 0, 255, 0.5),
+    0 0 20px rgba(255, 0, 255, 0.7), 0 0 30px rgba(255, 0, 255, 0.5),
+    0 0 40px rgba(255, 0, 255, 0.3);
+  animation: glow-left 2s linear infinite; /* Left to right animation */
+}
+
+.h2-glow::after {
+  content: attr(data-text); /* Use the same text for the glow effect */
+  position: absolute;
+  top: 0;
+  right: -100%; /* Start off-screen to the right */
+  color: rgba(255, 0, 255, 0.5); /* Color of the glow */
+  text-shadow: 0 0 5px rgba(255, 0, 255, 0.5), 0 0 10px rgba(255, 0, 255, 0.5),
+    0 0 20px rgba(255, 0, 255, 0.7), 0 0 30px rgba(255, 0, 255, 0.5),
+    0 0 40px rgba(255, 0, 255, 0.3);
+  animation: glow-right 1s linear infinite; /* Right to left animation */
 }
 
 /*this is for paragraph*/

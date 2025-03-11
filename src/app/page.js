@@ -44,10 +44,7 @@ const HomeClient = () => {
       <section className="wrapper">
         <div className="hero"></div>
         <div className="content-back">
-          <h1 className="h1-glow section" data-text="Welcome to Our Website ">
-            Welcome to Our Website
-          </h1>
-          <p className="p-glow section">
+          <p className="h2-glow section">
             Transform Your Business with Expert Consulting
           </p>
           <a href="#services" className="glow-on-hover mt-6 px-6 py-3 section">
@@ -90,6 +87,88 @@ const HomeClient = () => {
           </div>
         </div>
       </section>
+      {/* Aboutus Section */}
+      <section className="wrapper">
+        <div className="hero"></div>
+        <div className="content-back">
+          <h1 className="h1-glow  mb-6 section">ABOUT US</h1>
+          <h2 className="p-glow text-1xl text-center mb-4 section">
+            EvolveInfi: Your Partner in ISO 9001 Quality Audits, Lean
+            Manufacturing, and Digital Transformation
+          </h2>
+        </div>
+      </section>
+      <p className="max-w-4xl mx-auto px-4 text-lg font-thin text-gray-500 mb-10 bg-gradient-to-r from-red-400 to-yellow-500 bg-clip-text text-transparent section ">
+        At EvolveInfi, we empower businesses across Spain and Europe with expert
+        solutions in ISO 9001 quality audits, Lean Manufacturing, Lean Six Sigma
+        Black Belt consulting, web application development, and AI-driven
+        digital transformation.
+      </p>
+      <p className="max-w-4xl mx-auto px-4 font-thin text-white mb-6 section">
+        With over 5 years of industry expertise, we specialize in helping
+        manufacturing, engineering, IT, and service-based industries enhance
+        efficiency, compliance, and operational visibility.
+      </p>
+      <ul className="max-w-4xl mx-auto px-4 list-disc list-inside font-thin text-white mb-6 section">
+        <li>
+          Quality Management & Compliance – Achieve ISO 9001 certification and
+          streamline audit processes.
+        </li>
+        <li>
+          Process Optimization & Lean Six Sigma – Improve productivity, reduce
+          waste, and drive continuous improvement.
+        </li>
+        <li>
+          Digital Transformation & AI Consulting – Leverage cutting-edge AI
+          solutions to automate and optimize business operations.
+        </li>
+        <li>
+          Custom Web Application Development – Build scalable, secure, and
+          high-performance web applications tailored to your needs.
+        </li>
+      </ul>
+      <p className="max-w-4xl mx-auto px-4 font-thin text-white mb-6 section">
+        We help businesses optimize, automate, and grow with industry-leading
+        strategies, enhancing operational excellence.
+      </p>
+      <p className="max-w-4xl mx-auto px-4 font-thin text-white mb-6 section">
+        Looking to enhance efficiency and scale your business? Contact us today!
+      </p>
+
+      <h2 className="text-3xl font-bold text-center mt-10 mb-4 bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent section">
+        MISSION
+      </h2>
+      <p className="p-low max-w-4xl mx-auto mb-12 font-thin text-white section">
+        At EvolveInfi, our mission is to empower businesses across Spain and
+        Europe by delivering ISO 9001 quality audits, Lean Manufacturing, Lean
+        Six Sigma consulting, AI-driven digital transformation, and custom web
+        application development. We strive to enhance operational efficiency,
+        drive process excellence, and foster digital innovation for
+        manufacturing, engineering, IT, and service-based industries. Our goal
+        is to help businesses optimize workflows, improve compliance, and
+        achieve sustainable growth through cutting-edge technology and
+        industry-best practices.
+      </p>
+
+      <h2 className="text-3xl font-bold text-center mt-10 mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent section">
+        VISION
+      </h2>
+      <p className="p-low max-w-4xl mx-auto mb-12 font-thin text-white  section">
+        Our vision is to become a leading global consulting firm specializing in
+        quality management, process optimization, and digital transformation,
+        helping businesses achieve operational excellence and competitive
+        advantage in the evolving digital landscape. We aim to be the trusted
+        partner for businesses seeking to automate, optimize, and scale their
+        operations through ISO certification, AI solutions, and digital
+        innovation.
+      </p>
+      <p className="max-w-4xl mx-auto px-4 font-thin text-white mb-6 section">
+        By integrating Lean Six Sigma methodologies, AI-driven automation, and
+        smart digital strategies, we envision a future where businesses maximize
+        efficiency, reduce costs, and achieve long-term success in a rapidly
+        evolving market.
+      </p>
+
       {/* Footer */}
       <footer className="bg-black text-white py-10 px-6 section">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
