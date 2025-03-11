@@ -91,14 +91,14 @@ const HomeClient = () => {
       <section className="wrapper">
         <div className="hero"></div>
         <div className="content-back">
-          <h1 className="h1-glow  mb-6 section">ABOUT US</h1>
+          <h1 className="h2-glow  mb-6 section">ABOUT US</h1>
           <h2 className="p-glow text-1xl text-center mb-4 section">
             EvolveInfi: Your Partner in ISO 9001 Quality Audits, Lean
             Manufacturing, and Digital Transformation
           </h2>
         </div>
       </section>
-      <p className="max-w-4xl mx-auto px-4 text-lg font-thin text-gray-500 mb-10 bg-gradient-to-r from-red-400 to-yellow-500 bg-clip-text text-transparent section ">
+      <p className="max-w-4xl mx-auto px-4 text-lg font-thin text-gray-500  mb-10 bg-gradient-to-r from-red-400 to-yellow-500 bg-clip-text text-transparent section ">
         At EvolveInfi, we empower businesses across Spain and Europe with expert
         solutions in ISO 9001 quality audits, Lean Manufacturing, Lean Six Sigma
         Black Belt consulting, web application development, and AI-driven
