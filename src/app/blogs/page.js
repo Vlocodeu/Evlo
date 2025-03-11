@@ -33,13 +33,11 @@ const BlogPage = () => {
       <section className="wrapper">
         <div className="hero"></div>
         <div className="content-back">
-          <header className="py-10 text-center">
-            <h1 className="h1-glow  section">BLOG</h1>
-            <h2 className="p-glow text-2xl font-thin mb-6 bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent section">
-              How EvolveInfi is Transforming Businesses with ISO 9001, Lean Six
-              Sigma, and AI-Driven Digital Solutions
-            </h2>
-          </header>
+          <h1 className="h1-glow section">BLOGS</h1>
+          <h2 className="p-glow section">
+            How EvolveInfi is Transforming Businesses with ISO 9001, Lean Six
+            Sigma, and AI-Driven Digital Solutions
+          </h2>
         </div>
       </section>
 

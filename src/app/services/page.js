@@ -30,7 +30,7 @@ const ServicesPage = () => {
   return (
     <div className="relative ">
       {/* Header Section */}
-      <section className="wrapper ">
+      <section className="wrapper bg-black">
         <div className="hero"></div>
         <div className="content-back">
           <h1 className="h1-glow section">OUR SERVICES</h1>

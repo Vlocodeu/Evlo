@@ -28,7 +28,7 @@ const HomeClient = () => {
     });
   }, []);
   return (
-    <div className="relative container mx-auto bg-black">
+    <div className="relative">
       {/* Background Video */}
       {/* <video
         autoPlay
@@ -41,14 +41,14 @@ const HomeClient = () => {
       </video> */}
 
       {/* Hero Section */}
-      <section className="wrapper">
+      <section className="wrapper bg-black">
         <div className="hero"></div>
         <div className="content-back">
           <h1 className="h1-glow section" data-text="Welcome to Our Website ">
             Welcome to Our Website
           </h1>
           <p className="p-glow section">
-            Transform Your Business with Expert Consulting
+            Transform Your Business with Expert Consulting
           </p>
           <a href="#services" className="glow-on-hover mt-6 px-6 py-3 section">
             Explore Our Services
