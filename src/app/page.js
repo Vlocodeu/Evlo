@@ -28,7 +28,7 @@ const HomeClient = () => {
     });
   }, []);
   return (
-    <div className="relative">
+    <div className="relative bg-black">
       {/* Background Video */}
       {/* <video
         autoPlay
@@ -41,7 +41,7 @@ const HomeClient = () => {
       </video> */}
 
       {/* Hero Section */}
-      <section className="wrapper bg-black">
+      <section className="wrapper">
         <div className="hero"></div>
         <div className="content-back">
           <h1 className="h1-glow section" data-text="Welcome to Our Website ">
