@@ -49,7 +49,7 @@ const ServicesPage = () => {
           <h2 className="p-glow text-xl text-gray-600 mb-10 text-white section">
             Our Services – Empowering Businesses with Excellence & Innovation
           </h2>
-          <p className="p-low max-w-2xl mx-auto text-white section">
+          <p className="max-w-5xl text-justify mx-auto px-4  font-thin text-white mb-10 section">
             At EvolveInfi, we provide industry-leading solutions to help
             businesses across Spain and Europe achieve operational excellence,
             process optimization, and digital transformation. Our expert
