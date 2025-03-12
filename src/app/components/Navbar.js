@@ -71,7 +71,7 @@ const Navbar = () => {
 
         {/* Navigation Links on the right */}
         <div className={`flex-grow flex justify-end hidden md:flex space-x-10`}>
-          {["home", "services", "blogs", "contactus"].map((item) => (
+          {["home", "services", "blogs", "contact"].map((item) => (
             <Link
               key={item}
               href={item === "home" ? "/" : `/${item}`} // Set home to "/"
@@ -87,7 +87,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-black text-white absolute w-full left-0 top-14 py-4 z-50">
           <div className="flex flex-col items-center space-y-4">
-            {["home", "services", "blogs", "contactus"].map((item) => (
+            {["home", "services", "blogs", "contact"].map((item) => (
               <Link
                 key={item}
                 href={item === "home" ? "/" : `/${item}`}

@@ -30,10 +30,23 @@ const BlogPage = () => {
   return (
     <div className="relative bg-black">
       {/* Blog Header */}
-      <section className="wrapper">
-        <div className="hero"></div>
-        <div className="content-back">
-          <h1 className="h1-glow section">BLOGS</h1>
+      <section className="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden">
+        {/* Gradient Background & Animated Elements */}
+        <div className="absolute inset-0 gradient-background">
+          <div className="gradient-sphere sphere-1 section"></div>
+          <div className="gradient-sphere sphere-2 section"></div>
+          <div className="gradient-sphere sphere-3 section"></div>
+          <div className="glow"></div>
+          <div className="grid-overlay"></div>
+          <div className="noise-overlay"></div>
+          <div className="particles-container" id="particles-container"></div>
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10 text-center max-w-2xl p-6 m-10">
+          <h1 className="text-5xl mb-10 font-bold text-white bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300 drop-shadow-lg section">
+            BLOGS
+          </h1>
           <h2 className="p-glow section">
             How EvolveInfi is Transforming Businesses with ISO 9001, Lean Six
             Sigma, and AI-Driven Digital Solutions
@@ -201,14 +214,12 @@ const BlogPage = () => {
         </section>
       </div>
       {/* Footer */}
-      <footer className="bg-black text-white py-10 px-6 section">
+      <footer className="bg-black text-white py-10 px-6">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
           {/* Left Section - Contact Info */}
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold">Contact</h3>
-            <p className="mt-2 text-gray-400">
-              Get in touch for quality consulting services.
-            </p>
+            <h3 className="text-xl font-bold">Connect with us</h3>
+            <p className="mt-2 text-gray-400">info@nitikajindal.com</p>
             <div className="flex justify-center md:justify-start space-x-4 mt-4">
               <a href="#" className="text-white text-2xl hover:text-gray-400">
                 <i className="fab fa-facebook"></i>
@@ -223,28 +234,19 @@ const BlogPage = () => {
                 <i className="fab fa-x-twitter"></i>
               </a>
             </div>
+          </div>
+
+          {/* Center Section - Email Info */}
+          <div className="text-center md:text-left mt-6 md:mt-0">
             <p className="text-sm text-gray-500 mt-4">
               © 2025. All rights reserved.
             </p>
           </div>
 
-          {/* Center Section - Email Info */}
-          <div className="text-center md:text-left mt-6 md:mt-0">
-            <p className="text-lg font-medium">info@nitikajindal.com</p>
-          </div>
-
           {/* Right Section - Email Subscription */}
           <div className="mt-6 md:mt-0">
-            <h3 className="text-lg font-semibold text-center md:text-left">
-              Your Email Address
-            </h3>
             <div className="mt-2 flex items-center">
-              <input
-                type="email"
-                placeholder="Enter your email here"
-                className="w-64 px-4 py-2 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
-              />
-              <button className="ml-3 bg-purple-600 hover:bg-purple-700 text-white py-2 px-6 rounded-full transition duration-300">
+              <button href="/contactus" className="badge ml-3">
                 Submit Your Inquiry
               </button>
             </div>

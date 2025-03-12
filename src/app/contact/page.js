@@ -31,7 +31,7 @@ const ContactUs = () => {
   }, []);
   return (
     <div className="relative bg-black">
-      <section className="wrapper ">
+      <section className="wrapper">
         <div className="hero"></div>
         <div className="content-back-contactus">
           <h1 className="h1-glow local-content-contactus section">

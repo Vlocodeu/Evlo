@@ -7,40 +7,40 @@ import "./globals.css";
 const HomeClient = () => {
   useEffect(() => {
     // Feature Background Parallax Effect
-    let zoom = $(".feature").css("background-size");
-    zoom = parseFloat(zoom) / 100;
-    let size = zoom * $(".feature").width();
+    // let zoom = $(".feature").css("background-size");
+    // zoom = parseFloat(zoom) / 100;
+    // let size = zoom * $(".feature").width();
 
-    $(window).on("scroll", function () {
-      let fromTop = $(window).scrollTop();
-      let newSize = size - fromTop / 3;
+    // $(window).on("scroll", function () {
+    //   let fromTop = $(window).scrollTop();
+    //   let newSize = size - fromTop / 3;
 
-      if (newSize > $(".feature").width()) {
-        $(".feature").css({
-          "-webkit-background-size": newSize,
-          "-moz-background-size": newSize,
-          "-o-background-size": newSize,
-          "background-size": newSize,
-          "-webkit-filter": `blur(${fromTop / 100}px)`,
-          opacity: 1 - (fromTop / $("html").height()) * 1.3,
-        });
-      }
-    });
+    //   if (newSize > $(".feature").width()) {
+    //     $(".feature").css({
+    //       "-webkit-background-size": newSize,
+    //       "-moz-background-size": newSize,
+    //       "-o-background-size": newSize,
+    //       "background-size": newSize,
+    //       "-webkit-filter": `blur(${fromTop / 100}px)`,
+    //       opacity: 1 - (fromTop / $("html").height()) * 1.3,
+    //     });
+    //   }
+    // });
 
-    // Opacity Effect for Non-Chrome/Safari Browsers
-    let isChrome =
-      /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-    let isSafari =
-      /Safari/.test(navigator.userAgent) &&
-      /Apple Computer/.test(navigator.vendor);
+    // // Opacity Effect for Non-Chrome/Safari Browsers
+    // let isChrome =
+    //   /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    // let isSafari =
+    //   /Safari/.test(navigator.userAgent) &&
+    //   /Apple Computer/.test(navigator.vendor);
 
-    if (!isChrome && !isSafari) {
-      $(".feature").append('<div class="opaque"></div>');
-      $(window).on("scroll", function () {
-        let opacity = 0 + $(window).scrollTop() / 5000;
-        $(".opaque").css("opacity", opacity);
-      });
-    }
+    // if (!isChrome && !isSafari) {
+    //   $(".feature").append('<div class="opaque"></div>');
+    //   $(window).on("scroll", function () {
+    //     let opacity = 0 + $(window).scrollTop() / 5000;
+    //     $(".opaque").css("opacity", opacity);
+    //   });
+    // }
 
     // Scroll Animation using Intersection Observer
     const sections = document.querySelectorAll(".section");
@@ -83,7 +83,7 @@ const HomeClient = () => {
 
         {/* Content */}
         <div className="relative z-10 text-center max-w-2xl p-6">
-          <p className="text-5xl font-bold text-white bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300 drop-shadow-lg section         ">
+          <p className="text-5xl font-bold text-white bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300 drop-shadow-lg section">
             Transform Your Business with Expert Consulting
           </p>
           <a
@@ -462,10 +462,17 @@ const HomeClient = () => {
       </section>
 
       {/* About Us Section with Scroll Animation */}
-      <section className="relative mt-50">
-        <div className="feature"></div>
-        <div className="badge-container">
-          <h2 className="badge text-5xl font-bold mt-10 mb-4 text-white bg-clip-text text-transparent section">
+      <section className="relative mt-50 ">
+        <div className="gradient-background">
+          {/* Gradient Background & Animated Elements */}
+          <div className="absolute inset-0 gradient-background">
+            <div className="glow"></div>
+            <div className="grid-overlay"></div>
+            <div className="particles-container" id="particles-container"></div>
+          </div>
+        </div>
+        <div className="relative badge-container">
+          <h2 className="badge text-2xl font-bold mt-10 mb-4 text-white bg-clip-text text-transparent section">
             ABOUT US
           </h2>
         </div>
@@ -549,10 +556,8 @@ const HomeClient = () => {
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
           {/* Left Section - Contact Info */}
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold">Contact</h3>
-            <p className="mt-2 text-gray-400">
-              Get in touch for quality consulting services.
-            </p>
+            <h3 className="text-xl font-bold">Connect with us</h3>
+            <p className="mt-2 text-gray-400">info@nitikajindal.com</p>
             <div className="flex justify-center md:justify-start space-x-4 mt-4">
               <a href="#" className="text-white text-2xl hover:text-gray-400">
                 <i className="fab fa-facebook"></i>
@@ -567,28 +572,19 @@ const HomeClient = () => {
                 <i className="fab fa-x-twitter"></i>
               </a>
             </div>
+          </div>
+
+          {/* Center Section - Email Info */}
+          <div className="text-center md:text-left mt-6 md:mt-0">
             <p className="text-sm text-gray-500 mt-4">
               © 2025. All rights reserved.
             </p>
           </div>
 
-          {/* Center Section - Email Info */}
-          <div className="text-center md:text-left mt-6 md:mt-0">
-            <p className="text-lg font-medium">info@nitikajindal.com</p>
-          </div>
-
           {/* Right Section - Email Subscription */}
           <div className="mt-6 md:mt-0">
-            <h3 className="text-lg font-semibold text-center md:text-left">
-              Your Email Address
-            </h3>
             <div className="mt-2 flex items-center">
-              <input
-                type="email"
-                placeholder="Enter your email here"
-                className="w-64 px-4 py-2 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
-              />
-              <button className="ml-3 bg-purple-600 hover:bg-purple-700 text-white py-2 px-6 rounded-full transition duration-300">
+              <button href="/contactus" className="badge ml-3">
                 Submit Your Inquiry
               </button>
             </div>

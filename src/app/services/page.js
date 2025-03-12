@@ -28,16 +28,28 @@ const ServicesPage = () => {
     });
   }, []);
   return (
-    <div className="relative ">
+    <div className="relative bg-black">
       {/* Header Section */}
-      <section className="wrapper bg-black">
-        <div className="hero"></div>
-        <div className="content-back">
-          <h1 className="h1-glow section">OUR SERVICES</h1>
-          <h2 className="p-glow text-xl text-gray-600 mb-8 text-white section">
+      <section className="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden">
+        {/* Gradient Background & Animated Elements */}
+        <div className="absolute inset-0 gradient-background">
+          <div className="gradient-sphere sphere-1 section"></div>
+          <div className="gradient-sphere sphere-2 section"></div>
+          <div className="gradient-sphere sphere-3 section"></div>
+          <div className="glow"></div>
+          <div className="grid-overlay"></div>
+          <div className="noise-overlay"></div>
+          <div className="particles-container" id="particles-container"></div>
+        </div>
+        {/* Content */}
+        <div className="relative z-10 text-center max-w-2xl p-6">
+          <h1 className="text-5xl mb-10 font-bold text-white bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300 drop-shadow-lg section">
+            OUR SERVICES
+          </h1>
+          <h2 className="p-glow text-xl text-gray-600 mb-10 text-white section">
             Our Services – Empowering Businesses with Excellence & Innovation
           </h2>
-          <p className="p-low max-w-2xl mx-auto mb-12 text-white section">
+          <p className="p-low max-w-2xl mx-auto text-white section">
             At EvolveInfi, we provide industry-leading solutions to help
             businesses across Spain and Europe achieve operational excellence,
             process optimization, and digital transformation. Our expert
@@ -156,38 +168,36 @@ const ServicesPage = () => {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-20 text-center ">
-        <h2 className="text-3xl font-bold mb-4 text-white section">
-          🚀 Why Choose EvolveInfi?
+      <section className="py-20 text-justify ">
+        <h2 className="text-3xl text-center font-bold mb-4 text-white section">
+          Why Choose EvolveInfi?
         </h2>
-        <ul className="max-w-2xl mx-auto list-disc list-inside mb-8 text-white section">
-          <li>✔ Expert consulting with 5+ years of experience</li>
+        <ul className="no-bullets max-w-2xl test-center mx-auto list-disc list-inside mb-8 text-white section">
+          <li>Expert consulting with 5+ years of experience</li>
           <li>
-            ✔ Proven methodologies like Lean Six Sigma, AI automation, and ISO
+            Proven methodologies like Lean Six Sigma, AI automation, and ISO
             certification
           </li>
           <li>
-            ✔ Industry-focused solutions tailored for manufacturing, IT, and
+            Industry-focused solutions tailored for manufacturing, IT, and
             service sectors
           </li>
           <li>
-            ✔ Data-driven strategies for efficiency, compliance, and digital
+            Data-driven strategies for efficiency, compliance, and digital
             innovation
           </li>
         </ul>
-        <p className="text-lg font-semibold text-white section">
-          📞 Ready to transform your business? Contact us today!
+        <p className="text-lg text-center font-semibold text-white section">
+          Ready to transform your business? Contact us today!
         </p>
       </section>
       {/* Footer */}
-      <footer className="bg-black text-white py-10 px-6 section">
+      <footer className="bg-black text-white py-10 px-6">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
           {/* Left Section - Contact Info */}
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold">Contact</h3>
-            <p className="mt-2 text-gray-400">
-              Get in touch for quality consulting services.
-            </p>
+            <h3 className="text-xl font-bold">Connect with us</h3>
+            <p className="mt-2 text-gray-400">info@nitikajindal.com</p>
             <div className="flex justify-center md:justify-start space-x-4 mt-4">
               <a href="#" className="text-white text-2xl hover:text-gray-400">
                 <i className="fab fa-facebook"></i>
@@ -202,28 +212,19 @@ const ServicesPage = () => {
                 <i className="fab fa-x-twitter"></i>
               </a>
             </div>
+          </div>
+
+          {/* Center Section - Email Info */}
+          <div className="text-center md:text-left mt-6 md:mt-0">
             <p className="text-sm text-gray-500 mt-4">
               © 2025. All rights reserved.
             </p>
           </div>
 
-          {/* Center Section - Email Info */}
-          <div className="text-center md:text-left mt-6 md:mt-0">
-            <p className="text-lg font-medium">info@nitikajindal.com</p>
-          </div>
-
           {/* Right Section - Email Subscription */}
           <div className="mt-6 md:mt-0">
-            <h3 className="text-lg font-semibold text-center md:text-left">
-              Your Email Address
-            </h3>
             <div className="mt-2 flex items-center">
-              <input
-                type="email"
-                placeholder="Enter your email here"
-                className="w-64 px-4 py-2 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
-              />
-              <button className="ml-3 bg-purple-600 hover:bg-purple-700 text-white py-2 px-6 rounded-full transition duration-300">
+              <button href="/contactus" className="badge ml-3">
                 Submit Your Inquiry
               </button>
             </div>
