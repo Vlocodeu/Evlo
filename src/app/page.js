@@ -518,7 +518,7 @@ const HomeClient = () => {
             MISSION
           </h2>
         </div>
-        <p className="text-justify max-w-5xl mx-auto px-4 mb-10 font-thin text-white section">
+        <p className="max-w-5xl text-justify mx-auto px-4 mb-10 font-thin text-white section">
           At EvolveInfi, our mission is to empower businesses across Spain and
           Europe by delivering ISO 9001 quality audits, Lean Manufacturing, Lean
           Six Sigma consulting, AI-driven digital transformation, and custom web
@@ -534,7 +534,7 @@ const HomeClient = () => {
             VISION
           </h2>
         </div>
-        <p className="text-justify max-w-5xl mx-auto px-4 mb-12 font-thin text-white  section">
+        <p className="max-w-5xl text-justify mx-auto px-4 mb-12 font-thin text-white  section">
           Our vision is to become a leading global consulting firm specializing
           in quality management, process optimization, and digital
           transformation, helping businesses achieve operational excellence and
