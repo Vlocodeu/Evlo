@@ -245,88 +245,36 @@ body {
 /* Gradient Text for navbar */
 
 .glowing-text {
-  position: relative;
-  color: var(--glow-color);
-  font-family: "Raleway", sans-serif;
-  font-size: 16px; /* Adjust font size as needed */
-  font-weight: 100;
-  cursor: pointer;
-  display: inline-block; /* Make the text inline-block for better control */
-  padding: 1px; /* Add some padding for better click area */
+  display: flex;
+  align-items: center;
+  gap: 0 0.5rem;
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  background: rgb(0, 0, 0); /* Default background */
+  border-radius: 100px;
+  padding: 0.3rem 1.5rem;
+  margin-right: 1rem;
+  box-shadow: 0 0.1rem 0.2rem rgba(255, 0, 128, 0.8),
+    0 0.1rem 1.5rem rgba(5, 209, 223, 0.548),
+    0 0.2rem 0.5rem rgba(72, 0, 255, 0.8);
+  transition: background 2s ease, box-shadow 1s ease; /* Smooth transition */
 }
 
-.glowing-text::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0.7;
-  filter: blur(10px);
-  transform: translateY(120%) rotateX(95deg) scale(1, 0.35);
-  background: var(--glow-color);
-  pointer-events: none;
+/* Hover effect */
+.glowing-text:hover {
+  background: 0 0.1rem 0.2rem rgba(255, 0, 128, 0.8),
+    0 0.1rem 1.5rem rgba(5, 209, 223, 0.548),
+    0 0.2rem 0.5rem rgba(72, 0, 255, 0.8); /* Light background on hover */
+  box-shadow: 0 0.1rem 0.2rem rgba(255, 0, 128, 1),
+    0 0.1rem 1.5rem rgba(5, 209, 223, 1), 0 0.2rem 0.5rem rgba(72, 0, 255, 1);
 }
 
-.glowing-text:hover,
+/* Active effect */
 .glowing-text:active {
-  color: rgb(255, 255, 255);
-  text-shadow: 0 0 2px rgba(245, 240, 240, 0.247), 0 0 10px var(--glow-color),
-    0 0 15px var(--glow-color), 0 0 20px var(--glow-color),
-    0 0 25px var(--glow-color);
-  animation: text-flicker 3s linear infinite; /* Add flicker animation on hover and active */
-}
-
-.glowing-text:hover::before,
-.glowing-text:active::before {
-  filter: blur(1.5em);
-  opacity: 1;
-}
-
-@keyframes text-flicker {
-  0% {
-    opacity: 0.1;
-  }
-  2% {
-    opacity: 1;
-  }
-  8% {
-    opacity: 0.1;
-  }
-  9% {
-    opacity: 1;
-  }
-  12% {
-    opacity: 0.1;
-  }
-  20% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 0.3;
-  }
-  30% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 0.7;
-  }
-  72% {
-    opacity: 0.2;
-  }
-  77% {
-    opacity: 0.9;
-  }
-  100% {
-    opacity: 0.9;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .glowing-text {
-    font-size: 1.5em; /* Adjust font size for smaller screens */
-  }
+  background: rgba(0, 0, 0, 0.2); /* Darker background on active */
+  box-shadow: 0 0.1rem 0.2rem rgba(255, 0, 128, 1.2),
+    0 0.1rem 1.5rem rgba(5, 209, 223, 1.2),
+    0 0.2rem 0.5rem rgba(72, 0, 255, 1.2);
 }
 
 /* Glowing Text Effect */
@@ -979,12 +927,20 @@ body {
 
 /* infinity scrool animation */
 .app {
-  min-width: 600px;
+  min-width: 900px; /* Keep this for larger screens */
   min-height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 899px) {
+  .app {
+    min-width: 100%; /* Allow full width on smaller screens */
+    padding: 0 1rem; /* Optional: Add some padding */
+  }
 }
 
 .tag-list {
@@ -1012,23 +968,30 @@ body {
 }
 
 .tag {
-  display: flex;
+  display: inline-flex; /* Allows auto width based on content */
   align-items: center;
+  justify-content: center;
+  text-align: center;
   gap: 0 0.2rem;
   color: #e2e8f0;
   font-size: 0.9rem;
   background: black;
   border-radius: 100px;
-  padding: 0.3rem 1rem;
+  padding: 0.5rem 1.5rem; /* More padding for better spacing */
   margin-right: 1rem;
   box-shadow: 0 0.1rem 0.2rem rgba(255, 0, 128, 0.8),
     0 0.1rem 0.5rem rgba(5, 209, 223, 0.548),
     0 0.2rem 1.5rem rgba(72, 0, 255, 0.8);
+  min-width: 80px; /* Ensures a minimum width */
+  max-width: fit-content; /* Adjust width dynamically */
+  height: 50px; /* Keeps height uniform for all tags */
+  white-space: nowrap; /* Prevents multi-line text */
+  overflow: hidden; /* Ensures no content overflow */
+}
 
-  span {
-    font-size: 1.2rem;
-    color: #6f9cdc;
-  }
+.tag span {
+  font-size: 1.2rem;
+  color: #6f9cdc;
 }
 
 .fade {
@@ -1335,4 +1298,36 @@ body {
     opacity: 0.7;
     transform: translate(-50%, -50%) scale(1.1);
   }
+}
+
+/* aboutus heading styling */
+.badge-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 18px;
+  font-family: "Inter", sans-serif;
+  background: #000000;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  position: relative;
+  text-decoration: none;
+}
+
+.badge::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(90deg, #ff2a6d, #4c00ff);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
 }

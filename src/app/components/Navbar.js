@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative  px-6 py-3">
+    <nav className="relative px-6 py-3">
       {/* Gradient Background & Floating Elements */}
       <div className="absolute inset-0 nav-gradient-background">
         <div className="gradient-sphere nav-sphere-1"></div>
@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
 
       <div className="relative max-w-7xl mx-auto flex justify-between items-center">
-        {/* Logo */}
+        {/* Logo on the left */}
         <div className="flex items-center">
           <img src="/assets/logo.png" alt="Logo" className="h-10 w-10 mr-2" />
           <span className="text-white text-lg font-semibold">EvolveInfi</span>
@@ -69,10 +69,8 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Menu */}
-        <div
-          className={`flex-grow flex justify-center hidden md:flex space-x-10`}
-        >
+        {/* Navigation Links on the right */}
+        <div className={`flex-grow flex justify-end hidden md:flex space-x-10`}>
           {["home", "services", "blogs", "contactus"].map((item) => (
             <Link
               key={item}
@@ -87,7 +85,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-black text-white absolute w-full left-0 top-14 py-4">
+        <div className="md:hidden bg-black text-white absolute w-full left-0 top-14 py-4 z-50">
           <div className="flex flex-col items-center space-y-4">
             {["home", "services", "blogs", "contactus"].map((item) => (
               <Link

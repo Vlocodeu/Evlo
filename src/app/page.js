@@ -140,19 +140,19 @@ const HomeClient = () => {
             >
               <div className="inner section">
                 <div className="tag">
-                  <span>#</span> JavaScript
-                </div>
-                <div className="tag">
                   <span>#</span> webdev
                 </div>
                 <div className="tag">
+                  <span>#</span> Gatsby
+                </div>
+                <div className="tag">
+                  <span>#</span> JavaScript
+                </div>
+                <div className="tag">
+                  <span>#</span> Tailwind
+                </div>
+                <div className="tag">
                   <span>#</span> Typescript
-                </div>
-                <div className="tag">
-                  <span>#</span> Next.js
-                </div>
-                <div className="tag">
-                  <span>#</span> UI/UX
                 </div>
                 <div className="tag">
                   <span>#</span> animation
@@ -171,34 +171,19 @@ const HomeClient = () => {
                 </div>
                 {/* <!-- duplicated content --> */}
                 <div className="tag">
-                  <span>#</span> JavaScript
-                </div>
-                <div className="tag">
                   <span>#</span> webdev
                 </div>
                 <div className="tag">
-                  <span>#</span> Typescript
+                  <span>#</span> Gatsby
                 </div>
                 <div className="tag">
-                  <span>#</span> Next.js
-                </div>
-                <div className="tag">
-                  <span>#</span> UI/UX
-                </div>
-                <div className="tag">
-                  <span>#</span> animation
+                  <span>#</span> JavaScript
                 </div>
                 <div className="tag">
                   <span>#</span> Tailwind
                 </div>
                 <div className="tag">
-                  <span>#</span> React
-                </div>
-                <div className="tag">
-                  <span>#</span> SVG
-                </div>
-                <div className="tag">
-                  <span>#</span> HTML
+                  <span>#</span> Typescript
                 </div>
               </div>
             </div>
@@ -211,50 +196,65 @@ const HomeClient = () => {
             >
               <div className="inner section">
                 <div className="tag">
-                  <span>#</span> webdev
+                  <span>#</span> ISO 9001
                 </div>
                 <div className="tag">
-                  <span>#</span> Gatsby
+                  <span>#</span> Lean Manufacturing
                 </div>
                 <div className="tag">
-                  <span>#</span> JavaScript
+                  <span>#</span> Kaizen
                 </div>
                 <div className="tag">
-                  <span>#</span> Tailwind
+                  <span>#</span> Auditing
                 </div>
                 <div className="tag">
-                  <span>#</span> Typescript
+                  <span>#</span> 5S
                 </div>
                 <div className="tag">
-                  <span>#</span> animation
+                  <span>#</span> Continious Improvement
                 </div>
                 <div className="tag">
-                  <span>#</span> Tailwind
+                  <span>#</span> Computer Vision
                 </div>
                 <div className="tag">
-                  <span>#</span> React
+                  <span>#</span> Digitalization
                 </div>
                 <div className="tag">
-                  <span>#</span> SVG
+                  <span>#</span> Industry 4.0
                 </div>
                 <div className="tag">
-                  <span>#</span> HTML
+                  <span>#</span> Digital Transformation
                 </div>
                 {/* <!-- duplicated content --> */}
                 <div className="tag">
-                  <span>#</span> webdev
+                  <span>#</span> AI Consultant
                 </div>
                 <div className="tag">
-                  <span>#</span> Gatsby
+                  <span>#</span> AI Powered Web Development
                 </div>
                 <div className="tag">
-                  <span>#</span> JavaScript
+                  <span>#</span> Process Automation
                 </div>
                 <div className="tag">
-                  <span>#</span> Tailwind
+                  <span>#</span> Process Improvements
                 </div>
                 <div className="tag">
-                  <span>#</span> Typescript
+                  <span>#</span> Quality Management System
+                </div>
+                <div className="tag">
+                  <span>#</span> Workflow Optimization
+                </div>
+                <div className="tag">
+                  <span>#</span> Six Sigma
+                </div>
+                <div className="tag">
+                  <span>#</span> Data analytics
+                </div>
+                <div className="tag">
+                  <span>#</span> Intelligence Solutions
+                </div>
+                <div className="tag">
+                  <span>#</span> Business process improvement
                 </div>
               </div>
             </div>
@@ -338,50 +338,65 @@ const HomeClient = () => {
             >
               <div className="inner section">
                 <div className="tag">
-                  <span>#</span> Gatsby
+                  <span>#</span> ISO 9001
                 </div>
                 <div className="tag">
-                  <span>#</span> HTML
+                  <span>#</span> Lean Manufacturing
                 </div>
                 <div className="tag">
-                  <span>#</span> CSS
+                  <span>#</span> Kaizen
                 </div>
                 <div className="tag">
-                  <span>#</span> React
+                  <span>#</span> Auditing
                 </div>
                 <div className="tag">
-                  <span>#</span> Next.js
+                  <span>#</span> 5S
                 </div>
                 <div className="tag">
-                  <span>#</span> animation
+                  <span>#</span> Continious Improvement
                 </div>
                 <div className="tag">
-                  <span>#</span> Tailwind
+                  <span>#</span> Computer Vision
                 </div>
                 <div className="tag">
-                  <span>#</span> React
+                  <span>#</span> Digitalization
                 </div>
                 <div className="tag">
-                  <span>#</span> SVG
+                  <span>#</span> Industry 4.0
                 </div>
                 <div className="tag">
-                  <span>#</span> HTML
+                  <span>#</span> Digital Transformation
                 </div>
                 {/* <!-- duplicated content --> */}
                 <div className="tag">
-                  <span>#</span> Gatsby
+                  <span>#</span> AI Consultant
                 </div>
                 <div className="tag">
-                  <span>#</span> HTML
+                  <span>#</span> AI Powered Web Development
                 </div>
                 <div className="tag">
-                  <span>#</span> CSS
+                  <span>#</span> Process Automation
                 </div>
                 <div className="tag">
-                  <span>#</span> React
+                  <span>#</span> Process Improvements
                 </div>
                 <div className="tag">
-                  <span>#</span> Next.js
+                  <span>#</span> Quality Management System
+                </div>
+                <div className="tag">
+                  <span>#</span> Workflow Optimization
+                </div>
+                <div className="tag">
+                  <span>#</span> Six Sigma
+                </div>
+                <div className="tag">
+                  <span>#</span> Data analytics
+                </div>
+                <div className="tag">
+                  <span>#</span> Intelligence Solutions
+                </div>
+                <div className="tag">
+                  <span>#</span> Business process improvement
                 </div>
               </div>
             </div>
@@ -447,88 +462,86 @@ const HomeClient = () => {
       </section>
 
       {/* About Us Section with Scroll Animation */}
-      <section className="relative">
+      <section className="relative mt-50">
         <div className="feature"></div>
-        <div className="content section">
-          <h2 className="text-5xl font-bold text-center mt-10 mb-4 text-white bg-clip-text text-transparent section">
+        <div className="badge-container">
+          <h2 className="badge text-5xl font-bold mt-10 mb-4 text-white bg-clip-text text-transparent section">
             ABOUT US
           </h2>
-          <h2 className=" text-3xl font-thin text-white text-center mb-4 section">
-            EvolveInfi: Your Partner in ISO 9001 Quality Audits, Lean
-            Manufacturing, and Digital Transformation
-          </h2>
-          <p className="max-w-4xl mx-auto px-4 text-lg font-thin text-gray-500 mb-10 bg-gradient-to-r from-red-400 to-yellow-500 bg-clip-text text-transparent section ">
-            At EvolveInfi, we empower businesses across Spain and Europe with
-            expert solutions in ISO 9001 quality audits, Lean Manufacturing,
-            Lean Six Sigma Black Belt consulting, web application development,
-            and AI-driven digital transformation.
-          </p>
-          <p className="max-w-4xl mx-auto px-4 font-thin text-white mb-6 section">
-            With over 5 years of industry expertise, we specialize in helping
-            manufacturing, engineering, IT, and service-based industries enhance
-            efficiency, compliance, and operational visibility.
-          </p>
-          <ul className="max-w-4xl mx-auto px-4 list-disc list-inside font-thin text-white mb-6 section">
-            <li>
-              Quality Management & Compliance – Achieve ISO 9001 certification
-              and streamline audit processes.
-            </li>
-            <li>
-              Process Optimization & Lean Six Sigma – Improve productivity,
-              reduce waste, and drive continuous improvement.
-            </li>
-            <li>
-              Digital Transformation & AI Consulting – Leverage cutting-edge AI
-              solutions to automate and optimize business operations.
-            </li>
-            <li>
-              Custom Web Application Development – Build scalable, secure, and
-              high-performance web applications tailored to your needs.
-            </li>
-          </ul>
-          <p className="max-w-4xl mx-auto px-4 font-thin text-white mb-6 section">
-            We help businesses optimize, automate, and grow with
-            industry-leading strategies, enhancing operational excellence.
-          </p>
-          <p className="max-w-4xl mx-auto px-4 font-thin text-white mb-6 section">
-            Looking to enhance efficiency and scale your business? Contact us
-            today!
-          </p>
-
-          <h2 className="text-3xl font-bold text-center mt-10 mb-4 bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent section">
+        </div>
+        <p className="max-w-5xl text-justify mx-auto px-4  font-thin text-white mb-10 section ">
+          At EvolveInfi, we empower businesses across Spain and Europe with
+          expert solutions in ISO 9001 quality audits, Lean Manufacturing, Lean
+          Six Sigma Black Belt consulting, web application development, and
+          AI-driven digital transformation.
+        </p>
+        <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-10 section">
+          With over 5 years of industry expertise, we specialize in helping
+          manufacturing, engineering, IT, and service-based industries enhance
+          efficiency, compliance, and operational visibility.
+        </p>
+        <ul className="max-w-5xl text-justify mx-auto px-4 list-disc list-inside font-thin text-white mb-6 section">
+          <li>
+            Quality Management & Compliance – Achieve ISO 9001 certification and
+            streamline audit processes.
+          </li>
+          <li>
+            Process Optimization & Lean Six Sigma – Improve productivity, reduce
+            waste, and drive continuous improvement.
+          </li>
+          <li>
+            Digital Transformation & AI Consulting – Leverage cutting-edge AI
+            solutions to automate and optimize business operations.
+          </li>
+          <li>
+            Custom Web Application Development – Build scalable, secure, and
+            high-performance web applications tailored to your needs.
+          </li>
+        </ul>
+        <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-6 section">
+          We help businesses optimize, automate, and grow with industry-leading
+          strategies, enhancing operational excellence.
+        </p>
+        <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-6 section">
+          Looking to enhance efficiency and scale your business? Contact us
+          today!
+        </p>
+        <div className="badge-container">
+          <h2 className="badge text-2xl font-bold text-center mt-10 mb-4 text-white bg-clip-text text-transparent section">
             MISSION
           </h2>
-          <p className="p-low max-w-4xl mx-auto mb-12 font-thin text-white section">
-            At EvolveInfi, our mission is to empower businesses across Spain and
-            Europe by delivering ISO 9001 quality audits, Lean Manufacturing,
-            Lean Six Sigma consulting, AI-driven digital transformation, and
-            custom web application development. We strive to enhance operational
-            efficiency, drive process excellence, and foster digital innovation
-            for manufacturing, engineering, IT, and service-based industries.
-            Our goal is to help businesses optimize workflows, improve
-            compliance, and achieve sustainable growth through cutting-edge
-            technology and industry-best practices.
-          </p>
-
-          <h2 className="text-3xl font-bold text-center mt-10 mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent section">
+        </div>
+        <p className="p-low text-justify max-w-5xl mx-auto px-4 mb-12 font-thin text-white section">
+          At EvolveInfi, our mission is to empower businesses across Spain and
+          Europe by delivering ISO 9001 quality audits, Lean Manufacturing, Lean
+          Six Sigma consulting, AI-driven digital transformation, and custom web
+          application development. We strive to enhance operational efficiency,
+          drive process excellence, and foster digital innovation for
+          manufacturing, engineering, IT, and service-based industries. Our goal
+          is to help businesses optimize workflows, improve compliance, and
+          achieve sustainable growth through cutting-edge technology and
+          industry-best practices.
+        </p>
+        <div className="badge-container">
+          <h2 className="badge text-2xl font-bold text-center mt-10 mb-4 text-white bg-clip-text text-transparent section">
             VISION
           </h2>
-          <p className="p-low max-w-4xl mx-auto mb-12 font-thin text-white  section">
-            Our vision is to become a leading global consulting firm
-            specializing in quality management, process optimization, and
-            digital transformation, helping businesses achieve operational
-            excellence and competitive advantage in the evolving digital
-            landscape. We aim to be the trusted partner for businesses seeking
-            to automate, optimize, and scale their operations through ISO
-            certification, AI solutions, and digital innovation.
-          </p>
-          <p className="max-w-4xl mx-auto px-4 font-thin text-white mb-6 section">
-            By integrating Lean Six Sigma methodologies, AI-driven automation,
-            and smart digital strategies, we envision a future where businesses
-            maximize efficiency, reduce costs, and achieve long-term success in
-            a rapidly evolving market.
-          </p>
         </div>
+        <p className="p-low text-justify max-w-5xl mx-auto px-4 mb-12 font-thin text-white  section">
+          Our vision is to become a leading global consulting firm specializing
+          in quality management, process optimization, and digital
+          transformation, helping businesses achieve operational excellence and
+          competitive advantage in the evolving digital landscape. We aim to be
+          the trusted partner for businesses seeking to automate, optimize, and
+          scale their operations through ISO certification, AI solutions, and
+          digital innovation.
+        </p>
+        <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-6 section">
+          By integrating Lean Six Sigma methodologies, AI-driven automation, and
+          smart digital strategies, we envision a future where businesses
+          maximize efficiency, reduce costs, and achieve long-term success in a
+          rapidly evolving market.
+        </p>
       </section>
 
       {/* Footer */}
