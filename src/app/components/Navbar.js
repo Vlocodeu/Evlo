@@ -11,13 +11,24 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="px-6 py-3  bg-black">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+    <nav className="relative  px-6 py-3">
+      {/* Gradient Background & Floating Elements */}
+      <div className="absolute inset-0 nav-gradient-background">
+        <div className="gradient-sphere nav-sphere-1"></div>
+        <div className="gradient-sphere nav-sphere-2"></div>
+        <div className="gradient-sphere nav-sphere-3"></div>
+        <div className="nav-glow"></div>
+        <div className="nav-grid-overlay"></div>
+        <div className="nav-noise-overlay"></div>
+      </div>
+
+      <div className="relative max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
           <img src="/assets/logo.png" alt="Logo" className="h-10 w-10 mr-2" />
           <span className="text-white text-lg font-semibold">EvolveInfi</span>
         </div>
+
         {/* Hamburger Icon for Mobile */}
         <div className="md:hidden">
           <button
@@ -57,35 +68,35 @@ const Navbar = () => {
             )}
           </button>
         </div>
+
         {/* Menu */}
         <div
-          className={`flex-grow flex justify-center hidden md:flex space-x-20`}
+          className={`flex-grow flex justify-center hidden md:flex space-x-10`}
         >
           {["home", "services", "blogs", "contactus"].map((item) => (
             <Link
               key={item}
-              href={item === "home" ? "/" : `/${item}`} // Set home to link to "/"
-              className="glowing-text hover:text-white"
+              href={item === "home" ? "/" : `/${item}`} // Set home to "/"
+              className="glowing-text"
             >
-              {item.charAt(0).toUpperCase() + item.slice(1)}{" "}
-              {/* Capitalize first letter */}
+              {item.charAt(0).toUpperCase() + item.slice(1)}
             </Link>
           ))}
         </div>
       </div>
+
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-black text-white">
-          <div className="flex flex-col items-center space-y-4 py-4">
+        <div className="md:hidden bg-black text-white absolute w-full left-0 top-14 py-4">
+          <div className="flex flex-col items-center space-y-4">
             {["home", "services", "blogs", "contactus"].map((item) => (
               <Link
                 key={item}
-                href={item === "home" ? "/" : `/${item}`} // Set home to link to "/"
-                className="glowing-text hover:text-white"
+                href={item === "home" ? "/" : `/${item}`}
+                className="glowing-text "
                 onClick={() => setIsOpen(false)} // Close menu on link click
               >
-                {item.charAt(0).toUpperCase() + item.slice(1)}{" "}
-                {/* Capitalize first letter */}
+                {item.charAt(0).toUpperCase() + item.slice(1)}
               </Link>
             ))}
           </div>
