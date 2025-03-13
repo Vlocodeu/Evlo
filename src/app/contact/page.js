@@ -223,7 +223,7 @@ const ContactUs = () => {
             <p className="text-justify mx-auto font-thin text-white mb-10 section">
               We value your feedback and are continuously working to improve
               EvolveInfi. Your input is crucial in shaping the future of
-              EvolveInfi. .
+              EvolveInfi.
             </p>
           </div>
 
@@ -323,12 +323,36 @@ const ContactUs = () => {
       </section> */}
 
       {/* Footer */}
-      <footer className=" text-white py-10 px-6">
+      <footer className="bg-black text-white py-10 px-6">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
+          {/* Left Section - Contact Info */}
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold">Contact</h3>
-            <p className="text-gray-400 mt-2">info@nitikajindal.com</p>
+            <h3 className="text-xl font-bold">Connect with us</h3>
+            <p className="mt-2 text-gray-400">info@nitikajindal.com</p>
+            <div className="flex justify-center md:justify-start space-x-4 mt-4">
+              <a href="#" className="text-white text-2xl hover:text-gray-400">
+                <i className="fab fa-facebook"></i>
+              </a>
+              <a href="#" className="text-white text-2xl hover:text-gray-400">
+                <i className="fab fa-instagram"></i>
+              </a>
+              <a href="#" className="text-white text-2xl hover:text-gray-400">
+                <i className="fab fa-tiktok"></i>
+              </a>
+              <a href="#" className="text-white text-2xl hover:text-gray-400">
+                <i className="fab fa-x-twitter"></i>
+              </a>
+            </div>
           </div>
+
+          {/* Center Section - Email Info */}
+          <div className="text-center md:text-left mt-6 md:mt-0">
+            <p className="text-sm text-gray-500 mt-4">
+              © 2025. All rights reserved.
+            </p>
+          </div>
+
+          {/* Right Section - Email Subscription */}
           <div className="text-center md:text-left mt-6 md:mt-0">
             <h3 className="text-lg font-semibold">Subscribe</h3>
             <div className="flex items-center mt-2">

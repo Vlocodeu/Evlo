@@ -72,14 +72,12 @@ const ServicesPage = () => {
               />
             </div>
             <h3 className="sub-start text-2xl mb-2">
-              ISO 9001 Quality Audits & Compliance.
+              ISO 9001 Quality Audits & Compliance
             </h3>
             <ul className="description font-thin list-disc list-inside">
               <li>ISO 9001 certification consulting and compliance support</li>
-              <li>Quality management system (QMS) implementation.</li>
-              <li>
-                Internal audits, gap analysis, and continuous improvement.
-              </li>
+              <li>Quality management system (QMS) implementation</li>
+              <li>Internal audits, gap analysis, and continuous improvement</li>
             </ul>
           </div>
 
