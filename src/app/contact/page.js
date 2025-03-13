@@ -203,9 +203,9 @@ const ContactUs = () => {
 
           {/* Additional Content */}
         </div>
-        <div className="flex justify-between w-full mt-5 p-8 section">
+        <div className="flex justify-between w-full mt-5 p-8 z-10 section">
           {/* Customer Support */}
-          <div className="max-w-sm">
+          <div className="max-w-sm ">
             <h2 className="text-lg font-semibold text-white mb-2">
               Customer Support
             </h2>
@@ -307,7 +307,8 @@ const ContactUs = () => {
           </div>
         </div>
       </section>
-      {/* Google Maps Section */}
+
+      {/* Google Maps Section
       <section className="container mx-auto py-16 px-6 text-center section">
         <h2 className="text-3xl font-bold text-white mb-4 section">
           Our Location
@@ -325,7 +326,7 @@ const ContactUs = () => {
         </div>
       </section>
 
-      {/* FAQ Section */}
+      FAQ Section
       <section className="container mx-auto py-16 px-6 text-center">
         <h2 className="text-3xl font-bold text-white mb-4 section">FAQ</h2>
         <div className="space-y-4 text-left max-w-2xl mx-auto">
@@ -346,7 +347,7 @@ const ContactUs = () => {
             </p>
           </details>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <footer className=" text-white py-10 px-6">
@@ -363,7 +364,7 @@ const ContactUs = () => {
                 placeholder="Enter your email"
                 className="p-2 rounded-lg bg-gray-800 text-white"
               />
-              <button className="ml-3 bg-blue-600 py-2 px-6 rounded-full">
+              <button className="badge ml-3 bg-blue-600 py-2 px-6 rounded-full">
                 Submit
               </button>
             </div>

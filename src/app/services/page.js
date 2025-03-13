@@ -98,12 +98,11 @@ const ServicesPage = () => {
             </h3>
             <ul className="description list-disc list-inside">
               <li>
-                Lean Six Sigma Black Belt consulting for waste reduction and
-                efficiency
+                Lean Six Sigma consulting for waste reduction and efficiency
               </li>
               <li>Process automation and workflow optimization</li>
               <li>
-                Kaizen, 5S methodology, and continuous improvement strategies
+                Kaizen, 5S methodology, and continuous improving strategies
               </li>
             </ul>
           </div>
@@ -169,7 +168,7 @@ const ServicesPage = () => {
 
       {/* Why Choose Us Section */}
       <section className="py-20 text-justify ">
-        <h2 className="text-3xl text-center font-bold mb-4 text-white section">
+        <h2 className="text-2xl font-bold mt-10 mb-4 text-white text-center bg-clip-text text-transparent section">
           Why Choose EvolveInfi?
         </h2>
         <ul className="no-bullets max-w-2xl test-center mx-auto list-disc list-inside mb-8 text-white section">
@@ -224,9 +223,9 @@ const ServicesPage = () => {
           {/* Right Section - Email Subscription */}
           <div className="mt-6 md:mt-0">
             <div className="mt-2 flex items-center">
-              <button href="/contactus" className="badge ml-3">
+              <a href="/contact" className="badge ml-3">
                 Submit Your Inquiry
-              </button>
+              </a>
             </div>
           </div>
         </div>

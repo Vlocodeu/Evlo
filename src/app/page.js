@@ -82,13 +82,13 @@ const HomeClient = () => {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 text-center max-w-2xl p-6">
-          <p className="text-5xl font-bold text-white bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300 drop-shadow-lg section">
+        <div className="relative z-10 text-center max-w-2xl ">
+          <p className="text-5xl font-bold text-white section">
             Transform Your Business with Expert Consulting
           </p>
           <a
             href="#services"
-            className="glow-on-hover mt-6 px-6 py-3 pt-10px inline-block section"
+            className="badge-our-service mt-6 px-6 py-3 pt-10px inline-block section"
           >
             Explore Our Services
           </a>
@@ -472,16 +472,18 @@ const HomeClient = () => {
           </div>
         </div>
         <div className="relative badge-container">
-          <h2 className="badge text-2xl font-bold mt-10 mb-4 text-white bg-clip-text text-transparent section">
+          <h2 className="badge text-2xl font-bold  mb-4 text-white bg-clip-text text-transparent section">
             ABOUT US
           </h2>
         </div>
-        <p className="max-w-5xl text-justify mx-auto px-4  font-thin text-white mb-10 section ">
-          At EvolveInfi, we empower businesses across Spain and Europe with
-          expert solutions in ISO 9001 quality audits, Lean Manufacturing, Lean
-          Six Sigma Black Belt consulting, web application development, and
-          AI-driven digital transformation.
-        </p>
+        <div className="section ">
+          <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-10 ">
+            At EvolveInfi, we empower businesses across Spain and Europe with
+            expert solutions in ISO 9001 quality audits, Lean Manufacturing,
+            Lean Six Sigma Black Belt consulting, web application development,
+            and AI-driven digital transformation.
+          </p>
+        </div>
         <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-10 section">
           With over 5 years of industry expertise, we specialize in helping
           manufacturing, engineering, IT, and service-based industries enhance
@@ -584,9 +586,9 @@ const HomeClient = () => {
           {/* Right Section - Email Subscription */}
           <div className="mt-6 md:mt-0">
             <div className="mt-2 flex items-center">
-              <button href="/contactus" className="badge ml-3">
+              <a href="/contact" className="badge ml-3">
                 Submit Your Inquiry
-              </button>
+              </a>
             </div>
           </div>
         </div>
