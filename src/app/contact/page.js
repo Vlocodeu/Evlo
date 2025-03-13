@@ -240,71 +240,44 @@ const ContactUs = () => {
           </div>
         </div>
       </section>
-      <section className="mt-20 p-20">
-        <div className="grid md:grid-cols-2 gap-8 section">
-          <div className="text-left">
-            <h3 className="text-lg font-semibold text-white mb-2">
-              Customer Support
-            </h3>
-            <p className="text-justify mx-auto px-4  font-thin text-white mb-10 section">
-              Have questions? Our team is here to help.
-            </p>
-
-            <h3 className="text-lg font-semibold text-white mb-2">
-              Feedback and Suggestions
-            </h3>
-            <p className="text-justify mx-auto px-4  font-thin text-white mb-10 section">
-              Share your thoughts to help us improve.
-            </p>
-
-            <h3 className="text-lg font-semibold text-white mb-2">FAQs</h3>
-            <p className="text-justify mx-auto px-4  font-thin text-white mb-10 section">
-              Check out our Frequently Asked Questions for quick answers.
-            </p>
-
-            <h3 className="text-lg font-semibold text-white mb-2">Resources</h3>
-            <p className="text-justify mx-auto px-4  font-thin text-white mb-10 section">
-              Explore our documentation and tutorial sections for comprehensive
-              guides.
-            </p>
-          </div>
-
-          {/* Contact Form on the right */}
-          <div className="bg-white shadow-lg p-6 rounded-lg">
-            <h3 className="text-lg font-semibold mb-4">Get in Touch</h3>
-            <form>
-              <div className="mb-4">
-                <label className="block text-gray-700 mb-2">Name</label>
-                <input
-                  type="text"
-                  className="w-full p-2 border rounded"
-                  required
-                />
-              </div>
-              <div className="mb-4">
-                <label className="block text-gray-700 mb-2">Email</label>
-                <input
-                  type="email"
-                  className="w-full p-2 border rounded"
-                  required
-                />
-              </div>
-              <div className="mb-4">
-                <label className="block text-gray-700 mb-2">Message</label>
-                <textarea
-                  className="w-full p-2 border rounded"
-                  rows="4"
-                  required
-                ></textarea>
-              </div>
+      <section className="p-20">
+        {/* Contact Form on the right */}
+        <div className="bg-white shadow-lg p-6 rounded-lg max-w-4xl mx-auto">
+          <h3 className="text-lg font-semibold mb-4">Get in Touch</h3>
+          <form>
+            <div className="mb-4">
+              <label className="block text-gray-700 mb-2">Name</label>
+              <input
+                type="text"
+                className="w-full p-2 border rounded"
+                required
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block text-gray-700 mb-2">Email</label>
+              <input
+                type="email"
+                className="w-full p-2 border rounded"
+                required
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block text-gray-700 mb-2">Message</label>
+              <textarea
+                className="w-full p-2 border rounded"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <div className="w-23 ml-90">
               <button
                 type="submit"
-                className="bg-blue-600 text-white py-2 w-full rounded"
+                className="badge text-white py-2 w-full rounded"
               >
                 Submit
               </button>
-            </form>
-          </div>
+            </div>
+          </form>
         </div>
       </section>
 

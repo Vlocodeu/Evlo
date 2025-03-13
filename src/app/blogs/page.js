@@ -60,7 +60,7 @@ const BlogPage = () => {
           <h3 className="text-3xl mb-4 font-bold subheading-text section">
             Introduction
           </h3>
-          <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-5 section">
+          <p className="max-w-5xl text-justify mx-auto font-thin text-white mb-5 section">
             In today’s competitive business landscape, companies must streamline
             operations, enhance efficiency, and embrace digital transformation
             to stay ahead. At EvolveInfi, we specialize in helping businesses
@@ -68,7 +68,7 @@ const BlogPage = () => {
             9001 quality audits, Lean Manufacturing, Lean Six Sigma consulting,
             web application development, and AI-driven digital transformation.
           </p>
-          <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-10 section">
+          <p className="max-w-5xl text-justify mx-auto font-thin text-white mb-10 section">
             With over 5 years of industry expertise, we empower manufacturing,
             engineering, IT, and service-based industries by offering
             data-driven strategies that improve efficiency, compliance, and
@@ -81,15 +81,15 @@ const BlogPage = () => {
           <h3 className="text-3xl mb-4 font-bold subheading-text section">
             The Power of ISO 9001 in Business Success
           </h3>
-          <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-10 section">
+          <p className="max-w-5xl text-justify mx-auto font-thin text-white mb-10 section">
             Achieving ISO 9001 certification is more than just a compliance
             requirement—it’s a strategic move toward better quality management,
             customer satisfaction, and business growth.
           </p>
-          <h4 className="text-xl font-bold mb-2 px-4 bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent">
+          <h4 className="text-xl font-bold mb-2 text-white bg-clip-text text-transparent">
             Why ISO 9001 Matters?
           </h4>
-          <ul className="list-disc list-inside max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-5 section">
+          <ul className="list-disc list-inside max-w-5xl text-justify mx-auto font-thin text-white mb-5 section">
             <li>
               Establishes a quality management system (QMS) for operational
               efficiency
@@ -119,22 +119,22 @@ const BlogPage = () => {
           <h3 className="text-3xl mb-4 font-bold subheading-text section">
             Lean Six Sigma: Driving Efficiency & Cost Reduction
           </h3>
-          <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-10 section">
+          <p className="max-w-5xl text-justify mx-auto font-thin text-white mb-10 section">
             In industries like manufacturing, engineering, and IT, efficiency is
             key to success. Lean Six Sigma combines Lean principles (waste
             reduction) with Six Sigma methodologies (process improvement) to
             deliver higher productivity and lower costs.
           </p>
-          <h4 className="text-xl font-bold mb-2 px-4 bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent">
+          <h4 className="text-xl font-bold mb-2 text-white bg-clip-text text-transparent">
             How Lean Six Sigma Helps Businesses?
           </h4>
-          <ul className="list-disc list-inside max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-10 section">
+          <ul className="list-disc list-inside max-w-5xl text-justify mx-auto font-thin text-white mb-10 section">
             <li>Eliminates waste, defects, and inefficiencies</li>
             <li>Enhances process standardization and workflow optimization</li>
             <li>Reduces operational costs and improves profitability</li>
             <li>Boosts employee productivity and customer satisfaction</li>
           </ul>
-          <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-10 section">
+          <p className="max-w-5xl text-justify mx-auto font-thin text-white mb-10 section">
             Our Lean Principles consulting ensures that businesses implement the
             right strategies to optimize processes and achieve sustainable
             growth.
@@ -151,16 +151,16 @@ const BlogPage = () => {
           <h3 className="text-3xl mb-4 font-bold subheading-text section">
             Digital Transformation & AI: The Future of Business
           </h3>
-          <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-10 section">
+          <p className="max-w-5xl text-justify mx font-thin text-white mb-10 section">
             With the rise of Industry 4.0, businesses must leverage AI-driven
             digital transformation to stay competitive. At EvolveInfi, we
             integrate AI, automation, and cloud-based solutions to enhance
             business operations.
           </p>
-          <h4 className="text-xl font-bold mb-2 px-4 bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent">
+          <h4 className="text-xl font-bold mb-2 text-white bg-clip-text text-transparent">
             Key Benefits of AI-Driven Digital Transformation:
           </h4>
-          <ul className="list-disc list-inside max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-10 section">
+          <ul className="list-disc list-inside max-w-5xl text-justify mx font-thin text-white mb-10 section">
             <li>AI-powered business automation for faster workflows</li>
             <li>
               Smart ERP, CRM, and cloud solutions for data-driven decisions
@@ -170,7 +170,7 @@ const BlogPage = () => {
             </li>
             <li>Advanced predictive analytics and AI consulting</li>
           </ul>
-          <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-10 section">
+          <p className="max-w-5xl text-justify mx font-thin text-white mb-10 section">
             From automating manual processes to developing custom web
             applications, we ensure that businesses embrace technology for
             maximum efficiency and scalability.
@@ -187,22 +187,22 @@ const BlogPage = () => {
           <h3 className="text-3xl mb-4 font-bold subheading-text section">
             Custom Web Application Development: A Game-Changer for Businesses
           </h3>
-          <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-10 section">
+          <p className="max-w-5xl text-justify mx-auto font-thin text-white mb-10 section">
             A well-designed web application improves customer engagement,
             business automation, and operational control. We specialize in
             building scalable, secure, and high-performance web applications
             tailored to specific business needs.
           </p>
-          <h4 className="text-xl font-bold mb-2 px-4 bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent">
+          <h4 className="text-xl font-bold mb-2 text-white bg-clip-text text-transparent">
             Our Web Development Services Include:
           </h4>
-          <ul className="list-disc list-inside max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-10 section">
+          <ul className="list-disc list-inside max-w-5xl text-justify mx-auto font-thin text-white mb-10 section">
             <li>Custom web application development for automation</li>
             <li>API integration and system optimization</li>
             <li>UI/UX design for better user experience</li>
             <li>Secure, fast, and scalable cloud solutions</li>
           </ul>
-          <p className="max-w-5xl text-justify mx-auto px-4 font-thin text-white mb-10 section">
+          <p className="max-w-5xl text-justify mx-auto font-thin text-white mb-10 section">
             By combining AI, digital tools, and automation, we help businesses
             unlock new opportunities for growth and customer engagement.
           </p>
