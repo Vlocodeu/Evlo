@@ -72,14 +72,13 @@ const ServicesPage = () => {
               />
             </div>
             <h3 className="sub-start text-2xl mb-2">
-              ISO 9001 Quality Audits & Compliance
+              ISO 9001 Quality Audits & Compliance.
             </h3>
             <ul className="description font-thin list-disc list-inside">
               <li>ISO 9001 certification consulting and compliance support</li>
-              <li>Quality management system (QMS) implementation</li>
+              <li>Quality management system (QMS) implementation.</li>
               <li>
-                Internal audits, gap analysis, and continuous improvement
-                strategies
+                Internal audits, gap analysis, and continuous improvement.
               </li>
             </ul>
           </div>
@@ -89,12 +88,12 @@ const ServicesPage = () => {
             <div className="image-container relative mb-4">
               <img
                 src="/assets/lean-manufacturing.jpeg" // Replace with your image path
-                alt="Lean Manufacturing & Process Optimization"
+                alt="Lean Manufacturing "
                 className="image-hover w-full h-48 object-cover rounded-lg transition-transform duration-300"
               />
             </div>
             <h3 className="sub-start text-2xl font-semibold mb-2">
-              Lean Manufacturing & Process Optimization
+              Lean Manufacturing
             </h3>
             <ul className="description list-disc list-inside">
               <li>
