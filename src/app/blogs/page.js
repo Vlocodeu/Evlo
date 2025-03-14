@@ -146,11 +146,16 @@ const BlogPage = () => {
               the right strategies to optimize processes and achieve sustainable
               growth.
             </p>
-            <img
-              src="/assets/lean-six-sigma.png"
+            <video
+              src="/assets/lean-six-sigma.mp4"
               alt="Lean Six Sigma"
-              className="w-full h-64 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
-            />
+              className="w-full h-100 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
+              autoPlay
+              loop
+              muted
+            >
+              Your browser does not support the video tag.
+            </video>
           </section>
 
           {/* Digital Transformation Section */}
@@ -182,11 +187,16 @@ const BlogPage = () => {
               applications, we ensure that businesses embrace technology for
               maximum efficiency and scalability.
             </p>
-            <img
-              src="/assets/digital-transformation.jpeg"
-              alt="Digital Transformation"
-              className="w-full h-64 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
-            />
+            <video
+              src="/assets/digital-transformation.mp4"
+              alt="Digital Transformation & AI"
+              className="w-full h-120 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
+              autoPlay
+              loop
+              muted
+            >
+              Your browser does not support the video tag.
+            </video>
           </section>
 
           {/* Custom Web Application Development Section */}
@@ -213,11 +223,16 @@ const BlogPage = () => {
               By combining AI, digital tools, and automation, we help businesses
               unlock new opportunities for growth and customer engagement.
             </p>
-            <img
-              src="/assets/web-development.jpeg"
-              alt="Web Development"
-              className="w-full h-64 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
-            />
+            <video
+              src="/assets/web-development.mp4"
+              alt="Custom Web Application Development"
+              className="w-full h-120 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
+              autoPlay
+              loop
+              muted
+            >
+              Your browser does not support the video tag.
+            </video>
           </section>
         </div>
         {/* Footer */}
