@@ -25,8 +25,8 @@ const Navbar = () => {
       <div className="relative max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo on the left */}
         <div className="flex items-center">
-          <img src="/assets/logo.png" alt="Logo" className="h-10 w-10 mr-2" />
-          <span className="text-white text-lg font-semibold">EvolveInfi</span>
+          <img src="/assets/logo.png" alt="Logo" className="h-10 w-20 mr-0" />
+          {/* <span className="text-white text-lg font-semibold">EvolveInfi</span> */}
         </div>
 
         {/* Hamburger Icon for Mobile */}
