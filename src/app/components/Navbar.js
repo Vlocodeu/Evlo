@@ -25,7 +25,17 @@ const Navbar = () => {
       <div className="relative max-w-9xl mx-auto flex justify-between items-center">
         {/* Logo on the left */}
         <div className="flex items-center">
-          <img src="/assets/logo.png" alt="Logo" className="h-10 w-20 mr-0" />
+          <video
+            src="/assets/logo.webm"
+            alt="Lean Six Sigma"
+            className="h-10 w-40 mr-0"
+            autoPlay
+            loop
+            muted
+          >
+            Your browser does not support the video.
+          </video>
+          {/* <img src="/assets/logo.png" alt="Logo" className="h-10 w-20 mr-0" /> */}
           {/* <span className="text-white text-lg font-semibold">EvolveInfi</span> */}
         </div>
 

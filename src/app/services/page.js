@@ -69,16 +69,11 @@ const ServicesPage = () => {
             {/* Service 1 */}
             <div className="nft p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 section">
               <div className="image-container relative mb-4">
-                <video
-                  src="/assets/iso-9001.mp4"
+                <img
+                  src="/assets/iso-9001.png" // Replace with your image path
                   alt="ISO 9001 Quality Audits & Compliance"
-                  className="w-full h-50 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
-                  autoPlay
-                  loop
-                  muted
-                >
-                  Your browser does not support the video tag.
-                </video>
+                  className="image-hover w-full h-48 object-cover rounded-lg transition-transform duration-300"
+                />
               </div>
               <h3 className="sub-start text-2xl mb-2">
                 ISO 9001 Quality Audits & Compliance
@@ -97,16 +92,11 @@ const ServicesPage = () => {
             {/* Service 2 */}
             <div className="nft bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 section">
               <div className="image-container relative mb-4">
-                <video
-                  src="/assets/lean-manufacturing.mp4"
-                  alt="Lean Six Sigma"
-                  className="w-full h-50 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
-                  autoPlay
-                  loop
-                  muted
-                >
-                  Your browser does not support the video tag.
-                </video>
+                <img
+                  src="/assets/leang.png" // Replace with your image path
+                  alt="Business Growth & Strategy Consulting"
+                  className="image-hover w-full h-48 object-cover rounded-lg transition-transform duration-300"
+                />
               </div>
               <h3 className="sub-start text-2xl font-semibold mb-2">
                 Lean Manufacturing
@@ -125,16 +115,11 @@ const ServicesPage = () => {
             {/* Service 3 */}
             <div className="nft bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 section">
               <div className="image-container relative mb-4">
-                <video
-                  src="/assets/digital-trans.mp4"
+                <img
+                  src="/assets/digital-trans.png" // Replace with your image path
                   alt="Digital Transformation & AI Consulting"
-                  className="w-full h-50 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
-                  autoPlay
-                  loop
-                  muted
-                >
-                  Your browser does not support the video tag.
-                </video>
+                  className="image-hover w-full h-48 object-cover rounded-lg transition-transform duration-300"
+                />
               </div>
               <h3 className="sub-start text-2xl font-semibold mb-2">
                 Digital Transformation & AI Consulting
@@ -149,16 +134,11 @@ const ServicesPage = () => {
             {/* Service 4 */}
             <div className="nft bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 section">
               <div className="image-container relative mb-4">
-                <video
-                  src="/assets/web-dev.mp4"
+                <img
+                  src="/assets/web-dev.png" // Replace with your image path
                   alt="Custom Web Application Development"
-                  className="w-full h-50 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
-                  autoPlay
-                  loop
-                  muted
-                >
-                  Your browser does not support the video tag.
-                </video>
+                  className="image-hover w-full h-48 object-cover rounded-lg transition-transform duration-300"
+                />
               </div>
               <h3 className="sub-start text-2xl font-semibold mb-2">
                 Custom Web Application Development
@@ -175,16 +155,11 @@ const ServicesPage = () => {
             {/* Service 5 */}
             <div className="nft bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 section">
               <div className="image-container relative mb-4">
-                <video
-                  src="/assets/business-growth.mp4"
+                <img
+                  src="/assets/business-growth.png" // Replace with your image path
                   alt="Business Growth & Strategy Consulting"
-                  className="w-full h-50 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
-                  autoPlay
-                  loop
-                  muted
-                >
-                  Your browser does not support the video tag.
-                </video>
+                  className="image-hover w-full h-48 object-cover rounded-lg transition-transform duration-300"
+                />
               </div>
               <h3 className="sub-start text-2xl font-semibold mb-2">
                 Business Growth & Strategy Consulting

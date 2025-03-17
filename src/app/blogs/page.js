@@ -146,16 +146,11 @@ const BlogPage = () => {
               the right strategies to optimize processes and achieve sustainable
               growth.
             </p>
-            <video
-              src="/assets/lean-six-sigma.mp4"
+            <img
+              src="/assets/lean-manufacturing.png"
               alt="Lean Six Sigma"
               className="w-full h-100 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
-              autoPlay
-              loop
-              muted
-            >
-              Your browser does not support the video tag.
-            </video>
+            />
           </section>
 
           {/* Digital Transformation Section */}
@@ -187,16 +182,11 @@ const BlogPage = () => {
               applications, we ensure that businesses embrace technology for
               maximum efficiency and scalability.
             </p>
-            <video
-              src="/assets/digital-transformation.mp4"
-              alt="Digital Transformation & AI"
-              className="w-full h-120 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
-              autoPlay
-              loop
-              muted
-            >
-              Your browser does not support the video tag.
-            </video>
+            <img
+              src="/assets/digital-transformation.png"
+              alt="Digital Transformation"
+              className="w-full h-100 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
+            />
           </section>
 
           {/* Custom Web Application Development Section */}
